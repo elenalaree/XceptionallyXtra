@@ -8,7 +8,7 @@ function Navigation() {
 			<div className="container flex-row justify-space-between-lg justify-center align-center">
 				<nav className="flex-row ">
 				<h2>
-					<Link to="/about">Elena LaRee</Link>
+					<Link to="/">Elena LaRee</Link>
 				</h2>
 					<Link to="/about">About</Link>
 					<Link to="/portfolio">Portfolio</Link>
