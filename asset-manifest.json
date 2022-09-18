@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/xceptionally-xtra/static/css/main.80c39198.css",
-    "main.js": "/xceptionally-xtra/static/js/main.9b3941f9.js",
-    "static/js/787.afc4854c.chunk.js": "/xceptionally-xtra/static/js/787.afc4854c.chunk.js",
-    "static/media/pink-blue.jpg": "/xceptionally-xtra/static/media/pink-blue.f7667faee6165e18428e.jpg",
-    "static/media/5.jpg": "/xceptionally-xtra/static/media/5.78de501afa2c8dbbb2b8.jpg",
-    "static/media/1.jpg": "/xceptionally-xtra/static/media/1.15df9fdc40538e2ded9c.jpg",
-    "static/media/0.jpg": "/xceptionally-xtra/static/media/0.71b83621d807f25077ba.jpg",
-    "static/media/2.jpg": "/xceptionally-xtra/static/media/2.59e2f7bf2af93e6f64fd.jpg",
-    "static/media/3.jpg": "/xceptionally-xtra/static/media/3.363fffa60e5fbc423202.jpg",
-    "static/media/4.jpg": "/xceptionally-xtra/static/media/4.ce4f01f85fd7653bbc72.jpg",
-    "static/media/ElenaLaReeResume.pdf": "/xceptionally-xtra/static/media/ElenaLaReeResume.3b7e1dce045b256e0744.pdf",
-    "static/media/elena.jpeg": "/xceptionally-xtra/static/media/elena.ba34895fc7c612dbc74a.jpeg",
-    "index.html": "/xceptionally-xtra/index.html",
-    "main.80c39198.css.map": "/xceptionally-xtra/static/css/main.80c39198.css.map",
-    "main.9b3941f9.js.map": "/xceptionally-xtra/static/js/main.9b3941f9.js.map",
-    "787.afc4854c.chunk.js.map": "/xceptionally-xtra/static/js/787.afc4854c.chunk.js.map"
+    "main.css": "/xceptionally-xtra/about/static/css/main.80c39198.css",
+    "main.js": "/xceptionally-xtra/about/static/js/main.b630dcd7.js",
+    "static/js/787.afc4854c.chunk.js": "/xceptionally-xtra/about/static/js/787.afc4854c.chunk.js",
+    "static/media/pink-blue.jpg": "/xceptionally-xtra/about/static/media/pink-blue.f7667faee6165e18428e.jpg",
+    "static/media/5.jpg": "/xceptionally-xtra/about/static/media/5.78de501afa2c8dbbb2b8.jpg",
+    "static/media/1.jpg": "/xceptionally-xtra/about/static/media/1.15df9fdc40538e2ded9c.jpg",
+    "static/media/0.jpg": "/xceptionally-xtra/about/static/media/0.71b83621d807f25077ba.jpg",
+    "static/media/2.jpg": "/xceptionally-xtra/about/static/media/2.59e2f7bf2af93e6f64fd.jpg",
+    "static/media/3.jpg": "/xceptionally-xtra/about/static/media/3.363fffa60e5fbc423202.jpg",
+    "static/media/4.jpg": "/xceptionally-xtra/about/static/media/4.ce4f01f85fd7653bbc72.jpg",
+    "static/media/ElenaLaReeResume.pdf": "/xceptionally-xtra/about/static/media/ElenaLaReeResume.3b7e1dce045b256e0744.pdf",
+    "static/media/elena.jpeg": "/xceptionally-xtra/about/static/media/elena.ba34895fc7c612dbc74a.jpeg",
+    "index.html": "/xceptionally-xtra/about/index.html",
+    "main.80c39198.css.map": "/xceptionally-xtra/about/static/css/main.80c39198.css.map",
+    "main.b630dcd7.js.map": "/xceptionally-xtra/about/static/js/main.b630dcd7.js.map",
+    "787.afc4854c.chunk.js.map": "/xceptionally-xtra/about/static/js/787.afc4854c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80c39198.css",
-    "static/js/main.9b3941f9.js"
+    "static/js/main.b630dcd7.js"
   ]
 }
