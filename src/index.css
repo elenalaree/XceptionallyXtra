@@ -1,5 +1,12 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
+  background: black;
+  color: #26b2af;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +17,240 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+header{ 
+  position: sticky;
+  top: 0px;
+  background-color: black;
+  width: 100%;
+  z-index: 100;
+}
+
+header div nav a{
+  padding: 2px;
+}
+
+.headPic {
+  height: 10vh;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  color: #26b2af
+}
+
+a:hover {
+  text-decoration: none;
+  color: #37d8c9
+}
+
+nav  {
+  flex-wrap: wrap;
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+h1 {
+  text-align: center;
+}
+/* About Me */
+
+.aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutMe div {
+  padding: 10px;
+  
+}
+
+.textBox {
+  margin-bottom: 3px;
+  max-width: 500px;
+}
+
+/* Portfolio */
+
+.projectBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  ;
+}
+.projectBox img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  background-color: teal;
+  border: 1px solid teal;
+}
+
+
+.projectInfo {
+  color: black;
+  padding: 2px;
+  background-color: teal;
+  height: 50px;
+  width: fit-content;
+  position: relative;
+  top: 70px;
+  left: 5px;
+  z-index: 15;
+  border-radius: 6px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+}
+.githubKitty {
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  padding-top: 9px;
+  margin-left: 1px
+}
+.projectInfo h6 {
+  padding-left: 7px;
+  font-weight: 700;
+  margin:0;
+}
+.projectInfo p {
+  font-size: 2.25vh;
+  padding-left: 7px;
+}
+
+.projectInfo a {
+  color: black;
+}
+
+.projectInfo a:hover {
+  color: #2b374f;
+}
+
+/* Modal */
+.modalBackdrop {
+	background: rgba(0, 0, 0, .65);
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.modalContainer {
+	background: var(--darker);
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 960px;
+}
+
+.modalTitle {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+button {
+	background: var(--primary);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
+/* Contact Me */
+.contactBox {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contactBox div {
+  width: 300px;
+}
+.numberBox {
+  margin-top: 50px;
+
+}
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid #26b2af;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  margin: 2px;
+  display: flex;
+  width: 300px;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem #26b2af;
+}
+
+textarea {
+	width: 300px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: #26b2af;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: .8;
+}
+
+/* footer */
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: black;
+  z-index: 100;
+  padding-top: 2px;
+}
+
+footer div  {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 100%;
+  
+} 
+footer div a img {
+  width:5vh;
+}
+.copywrite {
+  font-size: x-small;
 }
