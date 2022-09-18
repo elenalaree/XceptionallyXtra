@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import Modal from "../Modal";
-import gh from "../../assets/icons/gh-md.png";
 function Projects() {
-	const [isModalOpen, setIsModalOpen] = useState(false);
-	const picInfo = useState([
+	
+	const [picInfo] = useState([
 		{
 			name: "The Forgotten Pages",
 			website: "https://theforgottenpages.herokuapp.com",
@@ -41,17 +39,10 @@ function Projects() {
 			github: "https://github.com/elenalaree/WeatherInTheWorld",
 		},
 	]);
-	const [picInfo, setCurrentPhoto] = useState();
-	const toggleModal = (image, i) => {
-		//current photo
-		setCurrentPhoto({ ...image, index: i });
-		setIsModalOpen(!isModalOpen);
-	};
+	
+	
 	return (
 		<div>
-			{isModalOpen && (
-				<Modal currentPhoto={currentPhoto} onClose={toggleModal} />
-			)}
 			<div className="flex-row">
 				<div className="projectBox">
 					{picInfo.map((image, i) => (
@@ -70,8 +61,7 @@ function Projects() {
 							<img
 								src={require(`../../assets/projects/${i}.jpg`)}
 								alt={image.name}
-								className="img-thumbnail mx-1"
-								onClick={() => toggleModal(image, i)}
+								className="img-thumbnail"
 								key={image.name}
 							/>
 						</div>
