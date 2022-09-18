@@ -1,10 +1,10 @@
 import React from "react";
 import Navigation from "./Navigation";
 
-function About() {
+function Header() {
 	return (
 		<Navigation />
 	);
 }
 
-export default About;
+export default Header;

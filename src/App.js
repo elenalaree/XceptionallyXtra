@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import './App.css';
 
 import Header from './components/Header';
@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-<Router>
+
 				<div className="flex-column justify-flex-start min-100-vh">
 					<Header />
 					<div className="container">
@@ -27,7 +27,7 @@ function App() {
 					</div>
 					<Footer />
 				</div>
-			</Router>
+			
   );
 }
 
