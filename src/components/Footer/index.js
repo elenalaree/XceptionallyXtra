@@ -12,7 +12,7 @@ const Footer = () => {
 					<a href="https://www.linkedin.com/in/elena-carey"><img className="linkin" src={LinkedIn} alt="LinkedIn Profile"></img></a>
 				</div>
                 <div>
-				<a href="https://stackoverflow.com/users/18807935/elena-carey"><i class="fa-brands fa-stack-overflow"></i></a>
+				<a href="https://stackoverflow.com/users/18807935/elena-carey"><i className="fa-brands fa-stack-overflow"></i></a>
                 </div>
                 <div className="copywrite">
 				&copy;2022 by Elenalaree

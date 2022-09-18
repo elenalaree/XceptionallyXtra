@@ -46,7 +46,7 @@ function Projects() {
 			<div className="flex-row">
 				<div className="projectBox">
 					{picInfo.map((image, i) => (
-						<div>
+						<div key={image.name}>
 							<div className="projectInfo">
 								<div className="projectText">
 									<a href={image.website}>
@@ -55,7 +55,7 @@ function Projects() {
 									<p>{image.languages}</p>
 								</div>
 								<div className="githubKitty">
-								<i class="fa-brands fa-github fa-2xl"></i>
+								<i className="fa-brands fa-github fa-2xl"></i>
 								</div>
 							</div>
 							<img

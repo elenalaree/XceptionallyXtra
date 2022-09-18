@@ -7,7 +7,7 @@ function About() {
             <h1 id='about'>About Me</h1>
             <div className='aboutMe'>
             <div><img src={elena} alt="Elena in a plaid dress"></img></div>
-            <div class="textBox">
+            <div className="textBox">
                     <p>Elena LaRee is an aspiring software developer with a commitment to detail. Her background in motherhood has helped her excel in time management, team mediation, and monitoring multiple tasks at once.
                         <br/><br/>
                     Fueled by a desire to learn, Elena understands the need for continued education. Furthering her knowledge in full stack, she strives for excellence in any project she finds.

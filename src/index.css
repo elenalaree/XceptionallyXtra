@@ -138,6 +138,7 @@ h1 {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
+  
 }
 
 .contactBox div {
@@ -192,7 +193,17 @@ button[disabled] {
   cursor: default;
   opacity: .8;
 }
-
+/* resume */
+.resumeLoad {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.list li {
+  list-style-type: none;
+}
+h4 {
+  text-decoration: underline;
+}
 /* footer */
 
 footer {
