@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 function Projects() {
-	
 	const [picInfo] = useState([
 		{
 			name: "The Forgotten Pages",
@@ -12,7 +11,7 @@ function Projects() {
 			name: "Past Pic",
 			website: "https://jamestchavez.github.io/Past-Pic/",
 			languages: "HTML/CSS/JS/Jquery/Bulma",
-			github: "https://github.com/jamestchavez/pastpic",
+			github: "https://github.com/jamestchavez/Past-Pic",
 		},
 		{
 			name: "Day Flow",
@@ -28,7 +27,8 @@ function Projects() {
 		},
 		{
 			name: "Trackr",
-			website: "https://drive.google.com/file/d/1Fc_h2PwzYCLOjwsQf8RkibPNIvIlrPge/view",
+			website:
+				"https://drive.google.com/file/d/1Fc_h2PwzYCLOjwsQf8RkibPNIvIlrPge/view",
 			languages: "JS express and inquirer",
 			github: "https://github.com/elenalaree/Trackr",
 		},
@@ -39,8 +39,7 @@ function Projects() {
 			github: "https://github.com/elenalaree/WeatherInTheWorld",
 		},
 	]);
-	
-	
+
 	return (
 		<div>
 			<div className="flex-row">
@@ -50,14 +49,15 @@ function Projects() {
 							<div className="projectInfo">
 								<div className="projectText">
 									<a href={image.website}>
-									<h6>{image.name}</h6>
+										<h6>{image.name}</h6>
 									</a>
 									<p>{image.languages}</p>
 								</div>
-								<div className="githubKitty">
-									<a href={image.github}>
-								<i className="fa-brands fa-github fa-2xl"></i></a>
-								</div>
+								<a href={image.github}>
+									<div className="githubKitty">
+										<i className="fa-brands fa-github fa-2xl"></i>
+									</div>
+								</a>
 							</div>
 							<img
 								src={require(`../../assets/projects/${i}.jpg`)}
