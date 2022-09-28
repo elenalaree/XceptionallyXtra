@@ -55,7 +55,8 @@ function Projects() {
 									<p>{image.languages}</p>
 								</div>
 								<div className="githubKitty">
-								<i className="fa-brands fa-github fa-2xl"></i>
+									<a href={image.github}>
+								<i className="fa-brands fa-github fa-2xl"></i></a>
 								</div>
 							</div>
 							<img
