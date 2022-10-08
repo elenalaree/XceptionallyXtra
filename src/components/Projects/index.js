@@ -38,6 +38,12 @@ function Projects() {
 			languages: "HTML/JS/CSS",
 			github: "https://github.com/elenalaree/WeatherInTheWorld",
 		},
+		{
+			name: "Fetch",
+			website: "https://ohfetch.herokuapp.com",
+			languages: "HTML/JS/CSS/React/Graphql/MongoDB/Mongoose",
+			github: "https://github.com/gnartistic/fetch",
+		},
 	]);
 
 	return (
