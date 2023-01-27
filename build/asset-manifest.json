@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/xceptionallyxtra/static/css/main.80c39198.css",
-    "main.js": "/xceptionallyxtra/static/js/main.065d67b7.js",
+    "main.css": "/xceptionallyxtra/static/css/main.f3e8a976.css",
+    "main.js": "/xceptionallyxtra/static/js/main.4afcc8ad.js",
     "static/js/787.27509f38.chunk.js": "/xceptionallyxtra/static/js/787.27509f38.chunk.js",
     "static/media/pink-blue.jpg": "/xceptionallyxtra/static/media/pink-blue.f7667faee6165e18428e.jpg",
     "static/media/5.jpg": "/xceptionallyxtra/static/media/5.78de501afa2c8dbbb2b8.jpg",
@@ -11,14 +11,15 @@
     "static/media/3.jpg": "/xceptionallyxtra/static/media/3.363fffa60e5fbc423202.jpg",
     "static/media/4.jpg": "/xceptionallyxtra/static/media/4.ce4f01f85fd7653bbc72.jpg",
     "static/media/ElenaLaReeResume.pdf": "/xceptionallyxtra/static/media/ElenaLaReeResume.3b7e1dce045b256e0744.pdf",
+    "static/media/6.jpg": "/xceptionallyxtra/static/media/6.3c6c0f7e6210b1762fbf.jpg",
     "static/media/elena.jpeg": "/xceptionallyxtra/static/media/elena.ba34895fc7c612dbc74a.jpeg",
     "index.html": "/xceptionallyxtra/index.html",
-    "main.80c39198.css.map": "/xceptionallyxtra/static/css/main.80c39198.css.map",
-    "main.065d67b7.js.map": "/xceptionallyxtra/static/js/main.065d67b7.js.map",
+    "main.f3e8a976.css.map": "/xceptionallyxtra/static/css/main.f3e8a976.css.map",
+    "main.4afcc8ad.js.map": "/xceptionallyxtra/static/js/main.4afcc8ad.js.map",
     "787.27509f38.chunk.js.map": "/xceptionallyxtra/static/js/787.27509f38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80c39198.css",
-    "static/js/main.065d67b7.js"
+    "static/css/main.f3e8a976.css",
+    "static/js/main.4afcc8ad.js"
   ]
 }

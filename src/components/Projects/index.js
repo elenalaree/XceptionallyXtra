@@ -1,28 +1,29 @@
 import React, { useState } from "react";
+
 function Projects() {
 	const [picInfo] = useState([
 		{
 			name: "The Forgotten Pages",
 			website: "https://theforgottenpages.herokuapp.com",
-			languages: "CSS/HTML/JS/Handlebars/Express/Heroku",
+			languages: "CSS HTML JS Handlebars Express Heroku ",
 			github: "https://github.com/itsmarcotime/ForgottenPages",
 		},
 		{
 			name: "Past Pic",
 			website: "https://jamestchavez.github.io/Past-Pic/",
-			languages: "HTML/CSS/JS/Jquery/Bulma",
+			languages: "HTML CSS JS Jquery Bulma ",
 			github: "https://github.com/jamestchavez/Past-Pic",
 		},
 		{
 			name: "Day Flow",
 			website: "https://elenalaree.github.io/dayflow",
-			languages: "HTML/CSS/JS",
+			languages: "HTML CSS JS",
 			github: "https://github.com/elenalaree/dayflow",
 		},
 		{
 			name: "Techie Time",
 			website: "https://techie-time.herokuapp.com/",
-			languages: "HTML/CSS/Heroku/Handlebars/Express/JS",
+			languages: "HTML CSS Heroku Handlebars Express JS",
 			github: "https://github.com/elenalaree/TechieTime",
 		},
 		{
@@ -35,13 +36,13 @@ function Projects() {
 		{
 			name: "Weather in the World",
 			website: "https://elenalaree.github.io/WeatherInTheWorld",
-			languages: "HTML/JS/CSS",
+			languages: "HTML JS CSS",
 			github: "https://github.com/elenalaree/WeatherInTheWorld",
 		},
 		{
 			name: "Fetch",
 			website: "https://ohfetch.herokuapp.com",
-			languages: "HTML/JS/CSS/React/Graphql/MongoDB/Mongoose",
+			languages: "HTML JS CSS React Graphql MongoDB Mongoose",
 			github: "https://github.com/gnartistic/fetch",
 		},
 	]);
@@ -55,9 +56,11 @@ function Projects() {
 							<div className="projectInfo">
 								<div className="projectText">
 									<a href={image.website}>
-										<h6>{image.name}</h6>
+										<h5>{image.name}</h5>
 									</a>
-									<p>{image.languages}</p>
+									<div>
+										<p>{image.languages}</p>
+									</div>
 								</div>
 								<a href={image.github}>
 									<div className="githubKitty">

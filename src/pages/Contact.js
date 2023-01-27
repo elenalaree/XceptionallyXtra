@@ -63,7 +63,7 @@ function ContactForm() {
 						/>
 					</div>
 					<div>
-						<label htmlFor="message">Message:</label>
+						<label htmlFor="message">Message: </label>
 						<textarea
 							name="message"
 							defaultValue={message}

@@ -57,16 +57,24 @@ h1 {
 }
 /* About Me */
 
+.elena img {
+ max-width: 100%;
+}
+
+.sectionBox {
+  height: 100%;
+}
 .aboutMe {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  height: 90vh;
 }
 
 .aboutMe div {
   padding: 10px;
-  
+  margin-bottom: 25px;
 }
 
 .textBox {
@@ -80,7 +88,6 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  ;
 }
 .projectBox img {
   width: 400px;
@@ -95,31 +102,45 @@ h1 {
   color: black;
   padding: 2px;
   background-color: teal;
-  height: 50px;
-  width: fit-content;
+  height: 90px;
+  width: 295px;
   position: relative;
-  top: 70px;
-  left: 5px;
+  top: 105px;
+  left: 0px;
   z-index: 15;
   border-radius: 6px;
   font-family: 'Times New Roman', Times, serif;
   display: flex;
+  flex-wrap: nowrap;
+  
 }
 .githubKitty {
   width: 45px;
-  height: 45px;
+  height: 75px;
   border-radius: 100px;
-  padding-top: 9px;
-  margin-left: 1px
+  padding-top: 20px;
+  margin-left: 10px;
 }
-.projectInfo h6 {
+
+.projectText {
+  width: 80%;
+}
+
+.projectInfo h5 {
   padding-left: 7px;
   font-weight: 700;
   margin:0;
 }
-.projectInfo p {
-  font-size: 2.25vh;
+.projectInfo div {
+  max-width: 100%;
+}
+
+.projectInfo div p {
+  display:flex;
+  flex-wrap: wrap;
+  font-size: 2vh;
   padding-left: 7px;
+  line-height: 80%;
 }
 
 .projectInfo a {
@@ -138,12 +159,24 @@ h1 {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
+  text-align: center;
+  margin:auto;
+  height: 90vh
+}
+
+.contactBox div ul{
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+
+
+#contact-form div{
+  display: flex;
+  flex-direction: column;
   
 }
 
-.contactBox div {
-  width: 300px;
-}
 .numberBox {
   margin-top: 50px;
 
@@ -181,7 +214,7 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
+  margin: 10px 1px;
   background-color: #26b2af;
 }
 
@@ -207,12 +240,13 @@ h4 {
 /* footer */
 
 footer {
-  position: fixed;
-  bottom: 0px;
+  position: sticky;
+  bottom:0px;
   width: 100%;
   background-color: black;
   z-index: 100;
   padding-top: 2px;
+  
 }
 
 footer div  {
@@ -227,4 +261,10 @@ footer div a img {
 }
 .copywrite {
   font-size: x-small;
+}
+
+@media (max-width:550px) {
+  nav h2 {
+    width: 100%;
+  }
 }

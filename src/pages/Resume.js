@@ -8,7 +8,7 @@ function Resume() {
 			<div className="resumeLoad"><a href={resume}  download>
 				Elena's Resume
 			</a></div>
-			<div className="contactBox text-center list">
+			<div className="contactBox list">
 				<div>
 					<h4>Front End Skills</h4>
 					<ul>
