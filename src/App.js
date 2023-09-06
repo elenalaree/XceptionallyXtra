@@ -8,9 +8,9 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import About from './pages/About';
+import Blog from './pages/Blog';
 import NoMatch from './pages/NoMatch';
 import Footer from './components/Footer';
-
 function App() {
   return (
 
@@ -18,9 +18,10 @@ function App() {
 					<Header />
 					<div className="container">
 						<Routes>
-              <Route path="/" element={<About />} />
+              				<Route path="/" element={<About />} />
 							<Route path="about" element={<About />} />
 							<Route path="portfolio" element={<Portfolio />} />
+							<Route path="blog" element={<Blog />} />
 							<Route path="contact" element={<Contact />} />
 							<Route path="resume" element={<Resume />} />
 							<Route path="*" element={<NoMatch />} />
