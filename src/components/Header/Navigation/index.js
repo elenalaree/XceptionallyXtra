@@ -11,6 +11,7 @@ function Navigation() {
 					<Link to="/">Elena Rogers</Link>
 				</h2>
 					<Link to="/about">About</Link>
+					<Link to="/blog">Blog</Link>
 					<Link to="/portfolio">Portfolio</Link>
 					<Link to="/contact">Contact</Link>
 					<Link to="/resume">Resume</Link>
