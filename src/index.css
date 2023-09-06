@@ -3,6 +3,7 @@
   padding:0;
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   background: black;
@@ -82,12 +83,32 @@ h1 {
   max-width: 500px;
 }
 
+
+/* Blog Posts */
+
+.postInfo {
+  width: 90%;
+  border: 2px solid teal ;
+  padding: 20px;
+  margin: auto;
+}
+
+.postBox {
+  height: 92vh;
+  margin-bottom: 40px;
+
+}
+.topicDate {
+  display: flex;
+  justify-content: space-between;
+}
 /* Portfolio */
 
-.projectBox {
+.projectBox{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  
 }
 .projectBox img {
   width: 400px;
