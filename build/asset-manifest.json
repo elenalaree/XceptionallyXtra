@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xceptionallyxtra/static/css/main.c1a6115f.css",
-    "main.js": "/xceptionallyxtra/static/js/main.73f766a7.js",
+    "main.js": "/xceptionallyxtra/static/js/main.2db613ce.js",
     "static/js/787.27509f38.chunk.js": "/xceptionallyxtra/static/js/787.27509f38.chunk.js",
     "static/media/pink-blue.jpg": "/xceptionallyxtra/static/media/pink-blue.f7667faee6165e18428e.jpg",
     "static/media/5.jpg": "/xceptionallyxtra/static/media/5.78de501afa2c8dbbb2b8.jpg",
@@ -10,16 +10,16 @@
     "static/media/2.jpg": "/xceptionallyxtra/static/media/2.59e2f7bf2af93e6f64fd.jpg",
     "static/media/3.jpg": "/xceptionallyxtra/static/media/3.363fffa60e5fbc423202.jpg",
     "static/media/4.jpg": "/xceptionallyxtra/static/media/4.ce4f01f85fd7653bbc72.jpg",
+    "static/media/Elena.webp": "/xceptionallyxtra/static/media/Elena.9c95eeeb36a5caa72ae9.webp",
     "static/media/ElenaLaReeResume.pdf": "/xceptionallyxtra/static/media/ElenaLaReeResume.3b7e1dce045b256e0744.pdf",
     "static/media/6.jpg": "/xceptionallyxtra/static/media/6.3c6c0f7e6210b1762fbf.jpg",
-    "static/media/elena.jpeg": "/xceptionallyxtra/static/media/elena.ba34895fc7c612dbc74a.jpeg",
     "index.html": "/xceptionallyxtra/index.html",
     "main.c1a6115f.css.map": "/xceptionallyxtra/static/css/main.c1a6115f.css.map",
-    "main.73f766a7.js.map": "/xceptionallyxtra/static/js/main.73f766a7.js.map",
+    "main.2db613ce.js.map": "/xceptionallyxtra/static/js/main.2db613ce.js.map",
     "787.27509f38.chunk.js.map": "/xceptionallyxtra/static/js/787.27509f38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1a6115f.css",
-    "static/js/main.73f766a7.js"
+    "static/js/main.2db613ce.js"
   ]
 }
