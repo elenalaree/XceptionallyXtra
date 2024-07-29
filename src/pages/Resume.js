@@ -12,6 +12,8 @@ function Resume() {
 				<div>
 					<h4>Front End Skills</h4>
 					<ul>
+						<li>Angular</li>
+						<li>TypeScript</li>
 						<li>CSS</li>
 						<li>HTML</li>
 						<li>JavaScript</li>
@@ -26,7 +28,10 @@ function Resume() {
 				<div>
 					<h4>Back End Skills</h4>
 					<ul>
+						<li>C#</li>
+						<li>Python</li>
 						<li>SQL</li>
+						<li>GraphQL</li>
 						<li>Git</li>
 						<li>JavaScript</li>
 						<li>APIs</li>
