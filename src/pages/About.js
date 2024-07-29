@@ -1,5 +1,5 @@
 import React from 'react';
-import elena from '../assets/cover/elena.jpeg'
+import elena from '../assets/cover/Elena.webp'
 
 function About() {
     return (
